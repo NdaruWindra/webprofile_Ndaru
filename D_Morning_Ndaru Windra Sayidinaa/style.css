@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*Navbar */
+.navbar {
+  display: flex;
+  background-color: aqua;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+}
+
+.nama {
+  font-size: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  margin: 15px;
+  font-size: 15px;
+}
+/* End Navbar */
+
+/* Home */
+.container-home {
+  height: 90vh;
+  display: flex;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 50px;
+  width: 50%;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.list-sosmed ul {
+  list-style: none;
+}
+
+.list-sosmed a {
+  text-decoration: none;
+}
+
+.list-sosmed img {
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+.list-sosmed img:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
+.text {
+  width: 100%;
+  font-size: 20px;
+  height: 40%;
+}
+
+.text p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.container-img {
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  display: flex-start;
+}
+
+.container-img img {
+  width: 54%;
+  height: 80%;
+  margin-top: 50px;
+  border-radius: 80%;
+}
+/* End Home */
+
+/* About */
+.container-about {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.text-about {
+  font-size: 60px;
+  width: 30%;
+  text-align: end;
+  margin: 10px;
+  padding: 10px;
+}
+
+.p-about {
+  background-color: aqua;
+  box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+}
+/* End About */
+
+/* Skills */
+.container-skills {
+  height: 80vh;
+  text-align: center;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.text-skills {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container-list-skills {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 30%);
+  gap: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+.container-list-skills :hover{
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
+.list-skills {
+  background-color: aqua;
+  box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.list-skills img {
+  width: 30%;
+}
+/* End Skills */
+
+/* Project */
+.container-project {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 10%;
+}
+
+.myproject {
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+.title-project {
+  text-align: center;
+}
+
+.list-project {
+  margin: 10px;
+  display: flex;
+  padding: 30px;
+}
+
+.text-project h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.img-project {
+  margin: 15px;
+}
+
+.text-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  text-align: justify;
+}
+/* End Project */
+
+/* Contact Me */
+.container-contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.title-contact {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.list-contact ul {
+  display: flex;
+  list-style: none;
+}
+
+.list-contact a {
+  text-decoration: none;
+}
+
+.list-contact li {
+  margin: 20px;
+  font-size: 20px;
+}
+/* End Contact Me */
+
+/* Footer */
+.container-footer {
+  background-color: aqua;
+  text-align: center;
+}
+
+.title-footer {
+  padding: 20px;
+}
+
+.footer-sosmed ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-sosmed img{
+    transition: transform 0.3s ease;
+}
+
+.footer-sosmed img:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
+.footer-sosmed a {
+  text-decoration: none;
+}
+
+.footer-sosmed li {
+  margin: 20px;
+}
+/* End Footer */
